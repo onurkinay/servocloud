@@ -1,0 +1,27 @@
+{
+  "name": "servocloud",
+  "version": "1.0.0",
+  "description": "a Azure project",
+  "main": "app.js",
+  "private": true,
+  
+  "dependencies": {
+    "@azure/event-hubs": "^1.0.7",
+    "azure-iot-device": "^1.8.1",
+    "azure-iot-device-amqp": "^1.8.1",
+    "azure-iot-device-mqtt": "^1.8.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "socket.io": "^2.1.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "azure"
+  ],
+  "author": "Onur Kınay",
+  "license": "ISC"
+}
